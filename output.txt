@@ -1,0 +1,77 @@
+[{'Badbrute': 3.200024366378784e-06,
+  'Brute': 2.500019036233425e-06,
+  'Divide and Conquer': 5.399924702942371e-06,
+  'Kadane': 1.100008375942707e-06},
+ {'Badbrute': 4.400033503770828e-06,
+  'Brute': 3.200024366378784e-06,
+  'Divide and Conquer': 5.399924702942371e-06,
+  'Kadane': 1.00000761449337e-06},
+ {'Badbrute': 1.3299984857439995e-05,
+  'Brute': 7.70005863159895e-06,
+  'Divide and Conquer': 7.3999399319291115e-06,
+  'Kadane': 1.400010660290718e-06},
+ {'Badbrute': 5.949998740106821e-05,
+  'Brute': 2.4700071662664413e-05,
+  'Divide and Conquer': 1.4199991710484028e-05,
+  'Kadane': 1.800013706088066e-06},
+ {'Badbrute': 0.0003152999561280012,
+  'Brute': 8.779997006058693e-05,
+  'Divide and Conquer': 2.729997504502535e-05,
+  'Kadane': 3.200024366378784e-06},
+ {'Badbrute': 0.0020488000009208918,
+  'Brute': 0.000341300037689507,
+  'Divide and Conquer': 5.449994932860136e-05,
+  'Kadane': 5.700043402612209e-06},
+ {'Badbrute': 0.002208299934864044,
+  'Brute': 0.00034550006967037916,
+  'Divide and Conquer': 5.9399986639618874e-05,
+  'Kadane': 5.700043402612209e-06},
+ {'Badbrute': 0.015506300027482212,
+  'Brute': 0.0013358000433072448,
+  'Divide and Conquer': 0.00013019994366914034,
+  'Kadane': 1.0300078429281712e-05},
+ {'Badbrute': 0.1177396000130102,
+  'Brute': 0.005253500072285533,
+  'Divide and Conquer': 0.00025859999004751444,
+  'Kadane': 1.95999164134264e-05},
+ {'Badbrute': 1.026799299987033,
+  'Brute': 0.02291030006017536,
+  'Divide and Conquer': 0.0005558999255299568,
+  'Kadane': 4.070007707923651e-05},
+ {'Badbrute': 8.243679500068538,
+  'Brute': 0.08999569993466139,
+  'Divide and Conquer': 0.0011195000261068344,
+  'Kadane': 7.780001033097506e-05}]
+
+'Bad_Brute_Force time for 730 elements : 2.950523'
+'Bad_Brute_Force  est. max number elements for 3sec runtime :  734'
+
+'Brute force time for 6000 elements :  3.052778'
+'Brute force  est. max number elements for 3sec runtime : 5947'
+
+Note: Divide and conquer max was found via approximating nlogn linearity around n = 1600000 
+'Divide and conquer time for 1600000 elements :2.986119 '
+'Divide and conquer est. max number elements for 3sec runtime :1607437 '
+
+Note:Kadane max n was found via extrapolation
+'Kadane  time for 1000000 : 0.086767 '
+'Kadane  est. max number elements for 3sec runtime : :34575157 '
+
+'test_dataset time for 2 elements : 0.000007'
+'test_dataset time for 4 elements : 0.000005'
+'test_dataset time for 8 elements : 0.000013'
+'test_dataset time for 16 elements : 0.000057'
+'test_dataset time for 32 elements : 0.000309'
+'test_dataset time for 64 elements : 0.002376'
+'test_dataset time for 64 elements : 0.002509'
+'test_dataset time for 128 elements : 0.015355'
+'test_dataset time for 256 elements : 0.115990'
+'test_dataset time for 512 elements : 0.981792'
+'test_dataset time for 1024 elements : 8.255337'
+'brute_test time for 1024 elements : 0.093646'
+'brute_test time for 2048 elements : 0.369355'
+'brute_test time for 4096 elements : 1.511379'
+'kadane_test time for 20078520 elements : 1.668319'
+'kadane_test time for 40157040 elements : 3.126870'
+'divideandconquer_test time for 803718 elements : 1.413018'
+'divideandconquer_test time for 1607436 elements : 2.909567'
